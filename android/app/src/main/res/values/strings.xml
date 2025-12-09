@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TurboModuleExample</string>
+    <string name="CodePushDeploymentKey" translatable="false">CODE_PUSH_DEPLOYMENT_KEY</string>
+    <string name="CodePushServerUrl" translatable="false">https://workspace-slug.codepush.bitrise.io</string>
 </resources>

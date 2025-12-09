@@ -49,5 +49,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CodePushDeploymentKey</key>
+    <string></string>
+    <key>CodePushServerURL</key>
+    <string>https://workspace-slug.codepush.bitrise.io</string>
 </dict>
 </plist>
