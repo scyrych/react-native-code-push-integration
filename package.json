@@ -37,5 +37,18 @@
   "engines": {
     "node": ">=18"
   },
+  "codegenConfig": {
+    "name": "NativeLocalStorageSpec",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.turbomoduleexample"
+    },
+    "ios": {
+      "modulesProvider": {
+        "NativeLocalStorage": "RCTNativeLocalStorage"
+      }
+    }
+  },
   "packageManager": "yarn@4.12.0"
 }
